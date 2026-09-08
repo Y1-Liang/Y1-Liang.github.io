@@ -56,8 +56,3 @@ redirect_from:
     <p class="pub-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2603.22070">arXiv <span aria-hidden="true">↗</span></a></p>
   </div>
 </section>
-
-<section class="cv-section cv-section--two-column">
-  <div><h2>Honors</h2><ul><li>USTC Excellent Student Scholarship, Bronze Award × 2</li><li>National College Mathematics Competition, Third Prize (Anhui)</li></ul></div>
-  <div><h2>Activities</h2><ul><li>Member, <strong>WrightEagle.AI</strong></li><li>City University of Hong Kong Summer Research Workshop 2025</li></ul></div>
-</section>

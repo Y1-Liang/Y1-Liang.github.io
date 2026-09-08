@@ -2,8 +2,8 @@
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #3857d6;
-$gray                       : #667085;
+$primary-color              : #2f7f93;
+$gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
@@ -29,20 +29,20 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #f8fafc;
-    --global-footer-bg-color            : #eef2f7;
-    --global-border-color               : #dbe2ee;
-    --global-dark-border-color          : #b8c2d1;
-    --global-code-background-color      : #eef2f7;
+    --global-bg-color                   : #fff;
+    --global-footer-bg-color            : #f2f3f3;
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #bdc1c4;
+    --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #3857d6;
-    --global-link-color-hover           : #223ba8;
-    --global-link-color-visited         : #5b4bb7;
-    --global-masthead-link-color        : #162033;
-    --global-masthead-link-color-hover  : #3857d6;
-    --global-text-color                 : #162033;
-    --global-text-color-light           : #5d6b82;
+    --global-link-color                 : #52adc8;
+    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
+    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);
+    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
 }
 
