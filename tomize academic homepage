@@ -1,0 +1,15 @@
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_config.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_data/navigation.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_pages/about.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_pages/cv.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '_pages/publications.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/css/main.scss', LF will be replaced by CRLF the next time Git touches it
+ README.md                | 110 [32m+++++++++[m[31m-------------------------------[m
+ _config.yml              |  34 [32m++++++[m[31m-------[m
+ _data/navigation.yml     |  30 [32m++[m[31m---------[m
+ _pages/about.md          | 129 [32m+++++++++++++++++++++++++++++++++[m[31m--------------[m
+ _pages/cv.md             | 108 [32m+++++++++++++++++++[m[31m--------------------[m
+ _pages/publications.html |  62 [32m+++++++++++++[m[31m----------[m
+ assets/css/main.scss     | 119 [32m++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ 7 files changed, 341 insertions(+), 251 deletions(-)

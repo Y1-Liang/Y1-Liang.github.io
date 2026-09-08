@@ -41,3 +41,120 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Liang Yi homepage custom styles ===== */
+.home-intro {
+  margin-top: 0.1rem;
+  margin-bottom: 1.9rem;
+}
+.home-intro h1 {
+  margin-bottom: 0.45rem;
+  font-size: 2.05em;
+  letter-spacing: -0.02em;
+}
+.cn-name {
+  font-weight: 500;
+  color: var(--global-text-color-light);
+}
+.home-intro .lead {
+  margin-top: 0;
+  font-size: 1.05em;
+  color: var(--global-text-color-light);
+}
+.quick-links {
+  margin: 1rem 0 0.2rem;
+}
+.home-btn {
+  display: inline-block;
+  padding: 0.42rem 0.72rem;
+  margin: 0 0.35rem 0.4rem 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 7px;
+  text-decoration: none !important;
+  font-size: 0.88em;
+  line-height: 1.2;
+}
+.home-btn:hover {
+  transform: translateY(-1px);
+}
+.interest-list {
+  margin: 0.3rem 0 1.4rem;
+}
+.interest-chip {
+  display: inline-block;
+  padding: 0.28rem 0.62rem;
+  margin: 0 0.28rem 0.36rem 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: 0.84em;
+}
+.news-list {
+  margin-bottom: 1.6rem;
+}
+.news-item {
+  display: flex;
+  gap: 0.8rem;
+  margin: 0.45rem 0;
+  align-items: baseline;
+}
+.news-date {
+  flex: 0 0 5.5rem;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.pub-card {
+  position: relative;
+  padding: 1rem 1.05rem 0.85rem;
+  margin: 0.85rem 0 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+}
+.pub-card h3 {
+  margin: 0.1rem 0 0.45rem;
+  font-size: 1.02em;
+  line-height: 1.35;
+}
+.pub-venue {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+  font-size: 0.82em;
+  letter-spacing: 0.02em;
+}
+.pub-authors {
+  margin: 0.25rem 0 0.45rem;
+  font-size: 0.9em;
+}
+.pub-desc {
+  margin: 0.4rem 0;
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+}
+.pub-links {
+  margin: 0.45rem 0 0;
+  font-size: 0.88em;
+}
+.pub-links span {
+  margin: 0 0.25rem;
+  color: var(--global-text-color-light);
+}
+.section-more {
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.9em;
+}
+.contact-note {
+  font-size: 0.93em;
+}
+@media (max-width: 600px) {
+  .home-intro h1 {
+    font-size: 1.7em;
+  }
+  .news-item {
+    display: block;
+  }
+  .news-date {
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+}

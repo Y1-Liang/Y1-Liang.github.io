@@ -7,58 +7,56 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Liang Yi (易亮)
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Undergraduate Student in Artificial Intelligence**  
+University of Science and Technology of China (USTC)  
+Expected graduation: 2027
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+[Email](mailto:yil158@mail.ustc.edu.cn) ·
+[Google Scholar](https://scholar.google.com/citations?user=kDGudDYAAAAJ&hl=en) ·
+[GitHub](https://github.com/Y1-Liang)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Trustworthy AI · Multimodal Learning · Reliable MLLMs · Hallucination Mitigation · Robust Alignment · 3D Vision · Spatial Understanding · Embodied AI
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Education
+
+**University of Science and Technology of China (USTC)**  
+B.Eng. candidate in Artificial Intelligence, 2023–2027 (expected)
+
+## Research Experience
+
+**Undergraduate Researcher, LDS Lab, USTC**  
+*2024 – Present*
+
+- Research on trustworthy multimodal learning, hallucination mitigation, and robust preference alignment for multimodal large language models.
+- Research on point-cloud adaptation, 3D spatial reasoning, grounding, and fine-grained 3D understanding.
+- Experience with PyTorch, Transformers, DeepSpeed, distributed training, and multimodal model evaluation.
+
+## Publications
+
+### Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation
+
+Xingyu Zhu, Kesen Zhao, **Liang Yi**, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He  
+**ICLR 2026**  
+[Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html) ·
+[arXiv](https://arxiv.org/abs/2602.24041)
+
+### Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning
+
+Xingyu Zhu, **Liang Yi**, Shuo Wang, Wenbo Zhu, Yongliang Wu, Beier Zhu, Hanwang Zhang  
+**CVPR 2026**  
+[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html) ·
+[arXiv](https://arxiv.org/abs/2603.22070)
+
+## Honors
+
+- USTC Excellent Student Scholarship, Bronze Award × 2
+- National College Mathematics Competition, Third Prize (Anhui)
+
+## Activities
+
+- Member, **WrightEagle.AI**
+- Participant, **City University of Hong Kong Summer Research Workshop 2025**

@@ -5,32 +5,40 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+For the most up-to-date citation information, see my
+[Google Scholar profile](https://scholar.google.com/citations?user=kDGudDYAAAAJ&hl=en).
 
-{% include base_path %}
+<div class="pub-card pub-card-full">
+  <div class="pub-venue">ICLR 2026</div>
+  <h3>Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation</h3>
+  <p class="pub-authors">
+    Xingyu Zhu, Kesen Zhao, <strong>Liang Yi</strong>, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He
+  </p>
+  <p class="pub-desc">
+    <strong>AIR</strong> is a training-free framework for mitigating hallucination in multimodal large language models.
+    It combines prototype-based visual-token reduction with optimal-transport-guided patch reinforcement to strengthen
+    useful visual evidence while suppressing redundant information.
+  </p>
+  <p class="pub-links">
+    <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html">Conference Paper</a>
+    <span>·</span>
+    <a href="https://arxiv.org/abs/2602.24041">arXiv</a>
+  </p>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<div class="pub-card pub-card-full">
+  <div class="pub-venue">CVPR 2026</div>
+  <h3>Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning</h3>
+  <p class="pub-authors">
+    Xingyu Zhu, <strong>Liang Yi</strong>, Shuo Wang, Wenbo Zhu, Yongliang Wu, Beier Zhu, Hanwang Zhang
+  </p>
+  <p class="pub-desc">
+    <strong>BayesMM</strong> performs training-free test-time adaptation for point cloud analysis by modeling textual
+    priors and streaming visual features as Gaussian distributions and combining them through Bayesian model averaging.
+  </p>
+  <p class="pub-links">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html">CVF Open Access</a>
+    <span>·</span>
+    <a href="https://arxiv.org/abs/2603.22070">arXiv</a>
+  </p>
+</div>
