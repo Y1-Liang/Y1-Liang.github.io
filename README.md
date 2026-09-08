@@ -1,8 +1,6 @@
 # Liang Yi — Academic Homepage
 
-Personal academic homepage of Liang Yi, undergraduate student in Artificial Intelligence at USTC.
-
-Website: https://Y1-Liang.github.io
+Source for [Y1-Liang.github.io](https://Y1-Liang.github.io), the academic homepage of Liang Yi, an undergraduate researcher in Artificial Intelligence at USTC.
 
 ## Local preview
 
@@ -15,18 +13,18 @@ bundle exec jekyll serve -l -H localhost
 
 Then open `http://localhost:4000`.
 
-## Main content files
+## Content map
 
-- `_pages/about.md` — homepage
-- `_pages/publications.html` — publications
+- `_pages/about.md` — introduction, research interests, news, and selected work
+- `_pages/publications.html` — full publication list
 - `_pages/cv.md` — web CV
 - `_data/navigation.yml` — top navigation
 - `_config.yml` — site/author metadata
 - `assets/css/main.scss` — styling
 
-## Optional profile photo
+## Profile photo
 
-The site currently intentionally has no profile photo rather than showing the template placeholder.
+The site intentionally uses a monogram until a real profile photo is available.
 To add one, place a headshot in `images/profile.jpg` and set:
 
 ```yaml

@@ -1,62 +1,63 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-## Liang Yi (易亮)
+<div class="cv-intro">
+  <p class="eyebrow">Liang Yi · 易亮</p>
+  <p>Undergraduate researcher in Artificial Intelligence at the University of Science and Technology of China.</p>
+  <p class="cv-links"><a href="mailto:yil158@mail.ustc.edu.cn">Email</a><a href="https://scholar.google.com/citations?user=kDGudDYAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/Y1-Liang">GitHub</a></p>
+</div>
 
-**Undergraduate Student in Artificial Intelligence**  
-University of Science and Technology of China (USTC)  
-Expected graduation: 2027
+<section class="cv-section">
+  <h2>Research interests</h2>
+  <p>Trustworthy AI · Multimodal learning · Reliable MLLMs · Hallucination mitigation · Robust alignment · 3D vision · Spatial understanding · Embodied AI</p>
+</section>
 
-[Email](mailto:yil158@mail.ustc.edu.cn) ·
-[Google Scholar](https://scholar.google.com/citations?user=kDGudDYAAAAJ&hl=en) ·
-[GitHub](https://github.com/Y1-Liang)
+<section class="cv-section">
+  <h2>Education</h2>
+  <div class="cv-entry">
+    <div><h3>University of Science and Technology of China</h3><p>B.Eng. candidate in Artificial Intelligence</p></div>
+    <p class="cv-date">2023–2027 <span>Expected</span></p>
+  </div>
+</section>
 
-## Research Interests
+<section class="cv-section">
+  <h2>Research experience</h2>
+  <div class="cv-entry">
+    <div>
+      <h3>Undergraduate Researcher · LDS Lab, USTC</h3>
+      <ul>
+        <li>Research on trustworthy multimodal learning, hallucination mitigation, and robust preference alignment for multimodal large language models.</li>
+        <li>Research on point-cloud adaptation, 3D spatial reasoning, grounding, and fine-grained 3D understanding.</li>
+        <li>Experience with PyTorch, Transformers, DeepSpeed, distributed training, and multimodal model evaluation.</li>
+      </ul>
+    </div>
+    <p class="cv-date">2024–Present</p>
+  </div>
+</section>
 
-Trustworthy AI · Multimodal Learning · Reliable MLLMs · Hallucination Mitigation · Robust Alignment · 3D Vision · Spatial Understanding · Embodied AI
+<section class="cv-section">
+  <h2>Publications</h2>
+  <div class="cv-publication">
+    <p class="pub-venue">ICLR 2026</p>
+    <h3>Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation</h3>
+    <p>Xingyu Zhu, Kesen Zhao, <strong>Liang Yi</strong>, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He</p>
+    <p class="pub-links"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2602.24041">arXiv <span aria-hidden="true">↗</span></a></p>
+  </div>
+  <div class="cv-publication">
+    <p class="pub-venue">CVPR 2026</p>
+    <h3>Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning</h3>
+    <p>Xingyu Zhu, <strong>Liang Yi</strong>, Shuo Wang, Wenbo Zhu, Yongliang Wu, Beier Zhu, Hanwang Zhang</p>
+    <p class="pub-links"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2603.22070">arXiv <span aria-hidden="true">↗</span></a></p>
+  </div>
+</section>
 
-## Education
-
-**University of Science and Technology of China (USTC)**  
-B.Eng. candidate in Artificial Intelligence, 2023–2027 (expected)
-
-## Research Experience
-
-**Undergraduate Researcher, LDS Lab, USTC**  
-*2024 – Present*
-
-- Research on trustworthy multimodal learning, hallucination mitigation, and robust preference alignment for multimodal large language models.
-- Research on point-cloud adaptation, 3D spatial reasoning, grounding, and fine-grained 3D understanding.
-- Experience with PyTorch, Transformers, DeepSpeed, distributed training, and multimodal model evaluation.
-
-## Publications
-
-### Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation
-
-Xingyu Zhu, Kesen Zhao, **Liang Yi**, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He  
-**ICLR 2026**  
-[Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html) ·
-[arXiv](https://arxiv.org/abs/2602.24041)
-
-### Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning
-
-Xingyu Zhu, **Liang Yi**, Shuo Wang, Wenbo Zhu, Yongliang Wu, Beier Zhu, Hanwang Zhang  
-**CVPR 2026**  
-[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html) ·
-[arXiv](https://arxiv.org/abs/2603.22070)
-
-## Honors
-
-- USTC Excellent Student Scholarship, Bronze Award × 2
-- National College Mathematics Competition, Third Prize (Anhui)
-
-## Activities
-
-- Member, **WrightEagle.AI**
-- Participant, **City University of Hong Kong Summer Research Workshop 2025**
+<section class="cv-section cv-section--two-column">
+  <div><h2>Honors</h2><ul><li>USTC Excellent Student Scholarship, Bronze Award × 2</li><li>National College Mathematics Competition, Third Prize (Anhui)</li></ul></div>
+  <div><h2>Activities</h2><ul><li>Member, <strong>WrightEagle.AI</strong></li><li>City University of Hong Kong Summer Research Workshop 2025</li></ul></div>
+</section>

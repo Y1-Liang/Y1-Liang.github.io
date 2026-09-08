@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Liang Yi | USTC"
+title                    : "Liang Yi"
 title_separator          : "-"
 name                     : &name "Liang Yi"
-description              : &description "Liang Yi — Undergraduate researcher at USTC working on trustworthy AI, multimodal learning, and 3D vision."
+description              : &description "Liang Yi is an undergraduate researcher at USTC working on trustworthy multimodal AI and 3D spatial intelligence."
 url                      : "https://Y1-Liang.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : ""
@@ -26,7 +26,7 @@ author:
   avatar           : ""
   name             : "Liang Yi"
   pronouns         :
-  bio              : "USTC undergraduate · Trustworthy AI & Multimodal Learning"
+  bio              : "Undergraduate researcher in trustworthy multimodal AI"
   location         : "Hefei, China"
   employer         : "Artificial Intelligence @ USTC"
   uri              :
@@ -148,9 +148,11 @@ og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Liang Yi"
+  links:
+    - "https://scholar.google.com/citations?user=kDGudDYAAAAJ&hl=en"
+    - "https://github.com/Y1-Liang"
 
 
 # Analytics
@@ -219,22 +221,6 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
-
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
@@ -255,43 +241,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
