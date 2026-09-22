@@ -23,18 +23,18 @@ I am broadly interested in building reliable multimodal systems that can perceiv
 <ul class="home-publications">
   <li>
     <p>
-      <strong>(ICLR 2026)</strong> Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation<br>
-      Xingyu Zhu, Kesen Zhao, <strong>Liang Yi</strong>, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He<br>
-      <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html">Paper</a> ·
-      <a href="https://arxiv.org/abs/2602.24041">arXiv</a>
-    </p>
-  </li>
-  <li>
-    <p>
       <strong>(CVPR 2026)</strong> Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning<br>
       Xingyu Zhu, <strong>Liang Yi</strong>, Shuo Wang, Wenbo Zhu, Yongliang Wu, Beier Zhu, Hanwang Zhang<br>
       <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Adapting_Point_Cloud_Analysis_via_Multimodal_Bayesian_Distribution_Learning_CVPR_2026_paper.html">Paper</a> ·
       <a href="https://arxiv.org/abs/2603.22070">arXiv</a>
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>(ICLR 2026)</strong> Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation<br>
+      Xingyu Zhu, Kesen Zhao, <strong>Liang Yi</strong>, Shuo Wang, Zhicai Wang, Beier Zhu, Hanwang Zhang, Xiangnan He<br>
+      <a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/83749a89d03df30c66af88020e4c7892-Abstract-Conference.html">Paper</a> ·
+      <a href="https://arxiv.org/abs/2602.24041">arXiv</a>
     </p>
   </li>
 </ul>
