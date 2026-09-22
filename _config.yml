@@ -23,7 +23,7 @@ repository               : "Y1-Liang/Y1-Liang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : ""
+  avatar           : "profile.jpg"
   name             : "Liang Yi"
   pronouns         :
   bio              : "B.Eng. in Artificial Intelligence @ USTC"
